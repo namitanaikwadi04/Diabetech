@@ -1,0 +1,23 @@
+.header {
+    background-color: #0033cc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  .nav a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,70 @@
+.home {
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    color: #002080;
+  }
+  
+  .home-image {
+    width: 600px;
+    height: 400px;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta-button {
+    background-color: #0033cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Media Queries for Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .home h1 {
+      font-size: 28px;
+    }
+  
+    .home-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .cta-button {
+      font-size: 16px;
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home {
+      padding: 30px;
+    }
+  
+    .home h1 {
+      font-size: 24px;
+    }
+  
+    .home-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .cta-button {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  }
+  

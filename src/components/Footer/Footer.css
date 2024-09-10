@@ -1,0 +1,21 @@
+.footer {
+    background-color: #002080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer p {
+    margin-top: 20px;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+  }
+  
