@@ -1,0 +1,84 @@
+/* Modal container */
+
+.modal {
+    display: block;
+    /* Show the modal */
+    position: fixed;
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Black background with opacity */
+    padding-top: 60px;
+}
+
+
+/* Modal content box */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    /* Center it */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+}
+
+
+/* Close button (top right corner) */
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Style the form inside the modal */
+
+.schedule-demo-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-demo-form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.schedule-demo-form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.schedule-demo-form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.schedule-demo-form button:hover {
+    background-color: #218838;
+}
