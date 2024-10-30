@@ -22,7 +22,7 @@ function ScheduleDemoForm({ onClose }) {
     e.preventDefault();
 
     // Send the form data to the backend
-    fetch("http://localhost:5000/api/scheduleDemo", {
+    fetch("http://localhost:4000/api/scheduleDemo", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

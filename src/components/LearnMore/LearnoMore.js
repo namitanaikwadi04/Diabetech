@@ -8,17 +8,45 @@ function LearnMore() {
     <div className="learn-more-content">
       <div className="section">
         <h3> Sensor Application </h3>{" "}
-        <p> Information about sensor application goes here. </p>{" "}
-        <img src="https://via.placeholder.com/150" alt="Sensor Application" />
+        <p>
+          {" "}
+          A healthcare provider applies the electronic tattoo sensor near the
+          DFU site.
+        </p>{" "}
       </div>{" "}
       <div className="section">
         <h3> Data Collection </h3>{" "}
-        <p> Information about data collection goes here. </p>{" "}
-        <img src="https://via.placeholder.com/150" alt="Data Collection" />
+        <p>
+          {" "}
+          The sensor continuously collects data on key wound healing indicators.
+        </p>{" "}
       </div>{" "}
       <div className="section">
-        <h3> AI Analysis </h3> <p> Information about AI analysis goes here. </p>{" "}
-        <img src="https://via.placeholder.com/150" alt="AI Analysis" />
+        <h3> AI Analysis </h3>{" "}
+        <p> Our advanced AI algorithms process the sensor data in real-time.</p>{" "}
+      </div>{" "}
+      <div className="section">
+        <h3> Insight Generation </h3>{" "}
+        <p>
+          {" "}
+          The AI generates personalized insights and treatment recommendations.
+        </p>{" "}
+      </div>{" "}
+      <div className="section">
+        <h3> User Access</h3>{" "}
+        <p>
+          {" "}
+          Patients and providers access insights through the mobile app and
+          clinician dashboard.{" "}
+        </p>{" "}
+      </div>{" "}
+      <div className="section">
+        <h3>Ongoing Care </h3>{" "}
+        <p>
+          {" "}
+          The platform supports continuous monitoring and adjustment of care
+          plans.{" "}
+        </p>{" "}
       </div>{" "}
     </div>
   );
