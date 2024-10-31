@@ -17,7 +17,7 @@ function Contact() {
 
     try {
       // Send data to the backend to save in the Excel file
-      const response = await fetch("http://localhost:5000/api/saveContact", {
+      const response = await fetch("http://localhost:4000/api/saveContact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -75,13 +75,17 @@ function Contact() {
       </form>{" "}
       <div className="contact-info">
         <p>
-          <strong> Address: </strong> 1234 Diabetech St, Health City{" "}
+          <strong> Address: </strong> Equitable floor 8, 100 Madison St, MD
+          32-88, Syracuse, NY -13202{" "}
         </p>{" "}
         <p>
-          <strong> Email: </strong> contact@diabetech.com{" "}
+          <strong> Email: </strong> info@diabetech.co{" "}
         </p>{" "}
         <p>
-          <strong> Phone: </strong> (123) 456-7890{" "}
+          <strong> LinkedIn: </strong> Diabetech llc{" "}
+        </p>{" "}
+        <p>
+          <strong> Phone: </strong> (680) 244-6122{" "}
         </p>{" "}
       </div>{" "}
     </section>
