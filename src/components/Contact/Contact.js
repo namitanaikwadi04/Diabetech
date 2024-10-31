@@ -17,7 +17,7 @@ function Contact() {
 
     try {
       // Send data to the backend to save in the Excel file
-      const response = await fetch("http://localhost:4000/api/saveContact", {
+      const response = await fetch("https://diabetech-server.onrender.com/api/saveContact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
